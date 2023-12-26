@@ -5,5 +5,9 @@
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
 
-    <style name="Theme.Tipcalculator" parent="Base.Theme.Tipcalculator" />
+    <style name="Theme.Tipcalculator" parent="Base.Theme.Tipcalculator">
+        <item name="colorPrimary">@color/primary_blue</item>
+        <item name="colorPrimaryVariant">@color/darker_blue</item>
+        <item name="android:colorBackground">@color/background_blue</item>
+    </style>
 </resources>
